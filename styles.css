@@ -211,8 +211,8 @@ ul {
 }
 
 .logo-mark {
-  width: 77px;
-  height: 77px;
+  width: 72px;
+  height: 72px;
   background: var(--white);
   border-radius: var(--radius-sm);
   display: flex;
