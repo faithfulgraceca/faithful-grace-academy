@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Faithful Grace Christian Academy — reach out for enrollment, general inquiries, or prayer requests." />
+  <title>Contact Us | Faithful Grace Christian Academy</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- ============================================================
+       SITE HEADER
+       ============================================================ -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+
+        <!-- Logo -->
+        <a href="index.html" class="site-logo" aria-label="Faithful Grace Christian Academy — Home">
+          <div class="logo-mark" aria-hidden="true">
+			<img src="School_Logo.png" alt="Faithful Grace Christian Academy" class="logo-img">
+		  </div>
+          <div class="logo-text">
+            <span class="logo-name">Faithful Grace</span>
+            <span class="logo-sub">Christian Academy</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+
+        <!-- Hamburger Toggle (mobile) -->
+        <button class="nav-toggle" id="navToggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileNav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      </div><!-- /.header-inner -->
+    </div><!-- /.container -->
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ============================================================
+       MAIN CONTENT
+       ============================================================ -->
+  <main>
+
+    <!-- --------------------------------------------------------
+         PAGE HERO
+         -------------------------------------------------------- -->
+    <section class="page-hero" aria-label="Page banner">
+      <div class="container">
+        <div class="page-hero-content">
+          <p class="page-hero-eyebrow">We'd Love to Hear from You</p>
+          <h1>Contact Us</h1>
+          <div class="page-hero-rule" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------
+         CONTACT INFO BLOCK — Three columns
+         -------------------------------------------------------- -->
+    <section class="contact-info section-py" aria-labelledby="info-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="info-heading">Get in Touch</h2>
+          <p class="section-subtitle">We welcome families, prospective students, and community members</p>
+          <span class="rule"></span>
+        </div>
+
+        <div class="info-cols">
+
+          <!-- Address -->
+          <div class="info-col">
+            <span class="info-icon" aria-hidden="true">📍</span>
+            <h3>Our Address</h3>
+            <p>
+              <strong>Physical:</strong> 20327 E HW 9<br />
+              Stigler, OK 74462<br /><br />
+              <strong>Mailing:</strong> 30640 S CR 4440<br />
+              Stigler, OK 74462
+            </p>
+          </div>
+
+          <!-- Phone -->
+          <div class="info-col">
+            <span class="info-icon" aria-hidden="true">📞</span>
+            <h3>Phone</h3>
+            <p>
+              Main Office: (918) 284-3964<br />
+              Fax: [Placeholder]
+            </p>
+          </div>
+
+          <!-- Email -->
+          <div class="info-col">
+            <span class="info-icon" aria-hidden="true">✉</span>
+            <h3>Email</h3>
+            <p>
+              General: info@fgca.edu<br />
+              Admissions: admissions@fgca.edu<br />
+              Principal: principal@fgca.edu
+            </p>
+          </div>
+
+        </div><!-- /.info-cols -->
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------
+         CONTACT FORM — Two-column layout
+         -------------------------------------------------------- -->
+    <section class="contact-form-section section-py" aria-labelledby="form-heading">
+      <div class="container">
+        <div class="form-layout">
+
+          <!-- Form column -->
+          <div>
+            <div class="form-intro">
+              <h2 id="form-heading">Send Us a Message</h2>
+              <span class="rule" aria-hidden="true"></span>
+              <p>
+                Whether you're inquiring about enrollment, have a general question,
+                or simply want to connect with our school community — we'd love to hear
+                from you. Our team typically responds within one business day.
+              </p>
+              <p>
+                You can also submit a prayer request and our faculty and staff
+                will be glad to lift your needs before the Lord.
+              </p>
+            </div>
+
+            <!-- Static contact form (no backend required for hosting) -->
+            <form
+              class="contact-form"
+              action="#"
+              method="POST"
+              aria-label="Contact form"
+            >
+
+              <!-- Row: Name + Email -->
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="full-name">Full Name</label>
+                  <input
+                    type="text"
+                    id="full-name"
+                    name="full_name"
+                    placeholder="Your full name"
+                    autocomplete="name"
+                    required
+                  />
+                </div>
+                <div class="form-field">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="you@example.com"
+                    autocomplete="email"
+                    required
+                  />
+                </div>
+              </div>
+
+              <!-- Row: Phone + Subject -->
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="phone">Phone <span class="opt">(optional)</span></label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="(000) 000-0000"
+                    autocomplete="tel"
+                  />
+                </div>
+                <div class="form-field">
+                  <label for="subject">Subject</label>
+                  <select id="subject" name="subject" required>
+                    <option value="" disabled selected>Select a subject…</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="enrollment">Enrollment / Admissions</option>
+                    <option value="prayer">Prayer Request</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Message -->
+              <div class="form-field">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="How can we help you? Please share any details that would be helpful…"
+                  required
+                ></textarea>
+              </div>
+
+              <!-- Submit -->
+              <button type="submit" class="form-submit">Send Message</button>
+
+            </form><!-- /.contact-form -->
+          </div>
+
+          <!-- Sidebar: Office Hours + Quick Info -->
+          <aside class="form-sidebar" aria-label="Office information">
+
+            <div class="sidebar-card">
+              <h4>📅 Office Hours</h4>
+              <table class="hours-table" aria-label="Office hours">
+                <tbody>
+                  <tr>
+                    <td>Monday</td>
+                    <td>8:00 AM – 4:30 PM</td>
+                  </tr>
+                  <tr>
+                    <td>Tuesday</td>
+                    <td>8:00 AM – 4:30 PM</td>
+                  </tr>
+                  <tr>
+                    <td>Wednesday</td>
+                    <td>8:00 AM – 4:30 PM</td>
+                  </tr>
+                  <tr>
+                    <td>Thursday</td>
+                    <td>8:00 AM – 4:30 PM</td>
+                  </tr>
+                  <tr>
+                    <td>Friday</td>
+                    <td>8:00 AM – 3:00 PM</td>
+                  </tr>
+                  <tr>
+                    <td>Saturday</td>
+                    <td>By appointment</td>
+                  </tr>
+                  <tr>
+                    <td>Sunday</td>
+                    <td>Closed</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div><!-- /.sidebar-card -->
+
+            <div class="sidebar-card">
+              <h4>✝ Enrollment Inquiries</h4>
+              <p style="font-size:0.88rem; color:#666; line-height:1.65; margin-bottom:12px;">
+                Interested in enrolling your child? Our admissions team is happy to walk
+                you through the process, schedule a campus visit, and answer any questions.
+              </p>
+              <p style="font-size:0.88rem; color:#666; line-height:1.65;">
+                Select <strong>"Enrollment / Admissions"</strong> from the subject dropdown
+                or contact us directly at admissions@fgca.edu.
+              </p>
+            </div><!-- /.sidebar-card -->
+
+            <div class="sidebar-card">
+              <h4>🙏 Prayer Requests</h4>
+              <p style="font-size:0.88rem; color:#666; line-height:1.65;">
+                We believe in the power of prayer. Submit your prayer request through this
+                form — it will be received by our faculty and staff who will pray on your behalf.
+              </p>
+            </div><!-- /.sidebar-card -->
+
+          </aside><!-- /.form-sidebar -->
+
+        </div><!-- /.form-layout -->
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------
+         MAP PLACEHOLDER
+         -------------------------------------------------------- -->
+    <section class="map-section section-py" aria-labelledby="map-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="map-heading">Find Us</h2>
+          <p class="section-subtitle">Located in Haskell County, Oklahoma</p>
+          <span class="rule"></span>
+        </div>
+
+        <!-- Map placeholder — replace with Google Maps embed iframe -->
+        <div class="map-placeholder" role="img" aria-label="Map placeholder — Google Maps embed will appear here">
+          <span class="map-icon" aria-hidden="true">🗺️</span>
+          <p>Interactive Map Coming Soon</p>
+          <span>Replace this block with a Google Maps embed iframe</span>
+        </div>
+
+        <!-- Address below map -->
+        <p style="text-align:center; margin-top:24px; font-size:0.9rem; color:var(--medium-gray);">
+          📍 20327 E HW 9, Stigler, Oklahoma 74462 &nbsp;·&nbsp;
+          <a href="https://www.google.com/maps/search/20327+E+HW+9+Stigler+OK+74462" target="_blank" rel="noopener noreferrer" style="color:var(--royal-blue); text-decoration:underline; text-underline-offset:3px;">
+            Open in Google Maps
+          </a>
+        </p>
+
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------
+         OFFICE HOURS (mobile-visible standalone section)
+         -------------------------------------------------------- -->
+    <section class="contact-info section-py" style="background:var(--white);" aria-labelledby="hours-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="hours-heading">Office Hours</h2>
+          <p class="section-subtitle">When you can reach our team</p>
+          <span class="rule"></span>
+        </div>
+
+        <div style="max-width:520px; margin:0 auto;">
+          <table class="hours-table" aria-label="Office hours" style="width:100%; border-collapse:collapse;">
+            <thead>
+              <tr>
+                <th style="text-align:left; font-family:var(--font-body); font-size:0.72rem; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:var(--medium-gray); padding-bottom:14px;">Day</th>
+                <th style="text-align:right; font-family:var(--font-body); font-size:0.72rem; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:var(--medium-gray); padding-bottom:14px;">Hours</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-top:1px solid var(--border-gray);">
+                <td style="padding:12px 0; color:var(--dark-gray); font-weight:500;">Monday – Thursday</td>
+                <td style="padding:12px 0; color:#666; text-align:right;">8:00 AM – 4:30 PM</td>
+              </tr>
+              <tr style="border-top:1px solid var(--border-gray);">
+                <td style="padding:12px 0; color:var(--dark-gray); font-weight:500;">Friday</td>
+                <td style="padding:12px 0; color:#666; text-align:right;">8:00 AM – 3:00 PM</td>
+              </tr>
+              <tr style="border-top:1px solid var(--border-gray);">
+                <td style="padding:12px 0; color:var(--dark-gray); font-weight:500;">Saturday</td>
+                <td style="padding:12px 0; color:#666; text-align:right;">By appointment only</td>
+              </tr>
+              <tr style="border-top:1px solid var(--border-gray); border-bottom:1px solid var(--border-gray);">
+                <td style="padding:12px 0; color:var(--dark-gray); font-weight:500;">Sunday</td>
+                <td style="padding:12px 0; color:var(--medium-gray); text-align:right; font-style:italic;">Closed</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p style="margin-top:20px; font-size:0.82rem; color:var(--medium-gray); font-style:italic; text-align:center;">
+            Hours may vary during school holidays and scheduled breaks.<br />
+            Please call ahead to confirm during those periods.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       SITE FOOTER
+       ============================================================ -->
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Brand column -->
+        <div class="footer-brand">
+          <div class="site-logo">
+            <div class="logo-mark" aria-hidden="true">
+				<img src="School_Logo.png" alt="Faithful Grace Christian Academy" class="logo-img">
+			</div>
+            <div class="logo-text">
+              <span class="logo-name">Faithful Grace Christian Academy</span>
+              <span class="logo-sub">Est. 2000</span>
+            </div>
+          </div>
+          <p class="footer-tagline">Rooted in Scripture. Committed to excellence.<br />Raising the next generation to know, love, and serve God.</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="#">📍 20327 E HW 9, Stigler, OK 74462</a></li>
+            <li><a href="tel:+19182843964">📞 (918) 284-3964</a></li>
+            <li><a href="mailto:info@fgca.edu">✉ info@fgca.edu</a></li>
+          </ul>
+        </div>
+
+      </div><!-- /.footer-grid -->
+
+      <div class="footer-bottom">
+        <p class="footer-verse">"...bring them up in the nurture and admonition of the Lord." — Eph 6:4</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       VANILLA JS — MOBILE NAV TOGGLE
+       ============================================================ -->
+  <script>
+    (function () {
+      var toggle = document.getElementById('navToggle');
+      var mobileNav = document.getElementById('mobileNav');
+
+      toggle.addEventListener('click', function () {
+        var isOpen = mobileNav.classList.toggle('open');
+        toggle.classList.toggle('open', isOpen);
+        toggle.setAttribute('aria-expanded', isOpen);
+        toggle.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');
+      });
+
+      mobileNav.querySelectorAll('a').forEach(function (link) {
+        link.addEventListener('click', function () {
+          mobileNav.classList.remove('open');
+          toggle.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+          toggle.setAttribute('aria-label', 'Open navigation menu');
+        });
+      });
+    })();
+  </script>
+
+</body>
+</html>
